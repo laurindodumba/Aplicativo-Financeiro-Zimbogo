@@ -23,4 +23,9 @@ do usuário. Essas alterações estão descritas abaixo.
 
 <img width="278" height="583" alt="image" src="https://github.com/user-attachments/assets/9ff2afc9-cddc-41d9-948b-a206cfaa94a2" />
 
+# TELA DE LANÇAMENTOS
+
+<img width="387" height="823" alt="image" src="https://github.com/user-attachments/assets/b2f98010-9cb6-4f0d-b948-b015e41ccdbd" />
+
+
 
