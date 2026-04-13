@@ -1,7 +1,7 @@
 # Aplicativo-Financeiro-Zimbogo
 
 
-Este aplicativo está sendo desenvolvido para atender a atividade da disciplina de INTERFACE GRÁFICA, onde temos que desenvolver um aplicativo para realizar o gerenciamento financeiro.
+Este aplicativo está sendo desenvolvido por mim e corresponde para atividade final da disciplina de INTERFACE GRÁFICA, onde temos que desenvolver um aplicativo para realizar o gerenciamento financeiro.
 
 # Especificação do Professor Abaixo:
 
