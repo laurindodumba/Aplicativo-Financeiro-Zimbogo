@@ -48,7 +48,7 @@ fun Home(navController: NavController) {
             contentAlignment = Alignment.CenterStart
         ) {
             Text(
-                text = "Bem-vindo ",
+                text = "",
                 color = Color.White,
                 fontSize = 24.sp,
                 fontWeight = FontWeight.Bold,
@@ -56,12 +56,14 @@ fun Home(navController: NavController) {
             )
         }
 
+
         // CONTEÚDO PRINCIPAL
         Column(
             modifier = Modifier
                 .fillMaxSize()
                 .background(color = BlurEffect)
-                .padding(20.dp)
+                .padding(20.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
         ) {
 
             Text(
@@ -70,7 +72,7 @@ fun Home(navController: NavController) {
                 fontWeight = FontWeight.Bold
             )
 
-            Spacer(modifier = Modifier.height(20.dp))
+            Spacer(modifier = Modifier.height(80.dp))
 
             // Card Formulário
             Card(
@@ -78,7 +80,7 @@ fun Home(navController: NavController) {
                     .fillMaxWidth()
                     .padding(vertical = 8.dp),
                 onClick = {
-                    navController.navigate(Routes.EXTRATO)
+                    navController.navigate(Routes.FORMULARIO)
                 },
                 colors = CardDefaults.cardColors(
                     containerColor = MaterialTheme.colorScheme.surfaceVariant
@@ -86,7 +88,8 @@ fun Home(navController: NavController) {
             ) {
                 Text(
                     text = "FORMULÁRIO",
-                    modifier = Modifier.padding(16.dp),
+                    modifier = Modifier.padding(18.dp),
+                    fontWeight = FontWeight.Bold,
                     style = MaterialTheme.typography.bodyLarge
                 )
             }
@@ -99,60 +102,26 @@ fun Home(navController: NavController) {
                     .fillMaxWidth()
                     .padding(vertical = 8.dp),
                 onClick = {
-                    navController.navigate(Routes.EXTRATO)
+                    navController.navigate(Routes.LISTAGEM)
                 },
                 colors = CardDefaults.cardColors(
                     containerColor = MaterialTheme.colorScheme.surfaceVariant
                 )
             ) {
                 Text(
-                    text = "IR EM LISTAGEM",
-                    modifier = Modifier.padding(16.dp),
+                    text = "LISTA DE CONTROLE",
+                    modifier = Modifier.padding(18.dp),
+                    fontWeight = FontWeight.Bold,
                     style = MaterialTheme.typography.bodyLarge
                 )
             }
 
             Spacer(modifier = Modifier.height(12.dp))
 
-            // CARD LANÇAMENTO
-            Card(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(vertical = 8.dp),
-                onClick = {
-                    navController.navigate(Routes.EXTRATO)
-                },
-                colors = CardDefaults.cardColors(
-                    containerColor = MaterialTheme.colorScheme.surfaceVariant
-                )
-            ) {
-                Text(
-                    text = "IR EM LANÇAMENTO",
-                    modifier = Modifier.padding(16.dp),
-                    style = MaterialTheme.typography.bodyLarge
-                )
-            }
 
-            Spacer(modifier = Modifier.height(12.dp))
 
-            // CARD DASH
-            Card(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(vertical = 8.dp),
-                onClick = {
-                    navController.navigate(Routes.GRAFICO)
-                },
-                colors = CardDefaults.cardColors(
-                    containerColor = MaterialTheme.colorScheme.surfaceVariant
-                )
-            ) {
-                Text(
-                    text = "IR AO DASHBOARD",
-                    modifier = Modifier.padding(16.dp),
-                    style = MaterialTheme.typography.bodyLarge
-                )
-            }
+
+
         }
     }
 }

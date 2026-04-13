@@ -6,9 +6,9 @@ package com.example.zimbongo.Routes
 object Routes {
     const val HOME = "HomeScreen"
     const val LANCAMENTO = "LancamentoScreen"
-    const val  FORMULARIO = "Formulario Screen"
+    const val  FORMULARIO = "FormularioScreen"
     const val LISTAGEM = "ListagemScreen"
     const val  GRAFICO = "GraficoScreen"
-    const val EXTRATO = "ExtratoScreen"
+    const val DICASFINANCAS = "DicasDeFinancasScreen"
 
 }
